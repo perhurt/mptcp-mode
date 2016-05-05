@@ -1,7 +1,7 @@
 # mptcp-mode
 Program to enable/disable MPTCP for existing (binary) applications in Linux.
 
-## Description
+## description
 
 This software enables/disables MPTCP for TCP applications without having to
 recompile them. The enabling/disabling is done through a `LD_PRELOAD` which
