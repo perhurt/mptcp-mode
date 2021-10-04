@@ -35,7 +35,7 @@ int socket(int domain, int type, int protocol)
 {
     _mptcpmode_load();
 
-    if (((PF_INET == domain) || (PF_INET6 == domain))
+    if (((IPPROTO_TCP == protocol) || (0 == protocol))
         && (SOCK_STREAM == type)) {
 
 #ifdef DEBUG
