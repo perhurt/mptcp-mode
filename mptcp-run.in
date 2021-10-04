@@ -1,4 +1,3 @@
 #!/bin/sh
 export LD_PRELOAD=./libmptcpmode.so
-export LD_PRELOAD_MPTCPMODE=off
 exec "$@"
